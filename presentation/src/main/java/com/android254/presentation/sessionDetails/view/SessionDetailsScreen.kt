@@ -119,9 +119,11 @@ private fun SessionDetailsScreen(
         topBar = { TopBar(onNavigationIconClick) },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = {},
+                onClick = {
+                          //implement tweeting
+                },
                 modifier = Modifier
-                    .size(44.dp)
+                    .size(70.dp)
                     .testTag(TestTag.FLOATING_ACTION_BUTTON),
                 containerColor = ChaiRed,
                 shape = CircleShape
